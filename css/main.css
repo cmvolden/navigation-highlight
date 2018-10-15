@@ -10,6 +10,7 @@ body {
   font-family: Georgia, serif;
   text-align: center;
   margin: 0;
+  line-height: 1.5;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 h1 {
   margin: 0;
   font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
   color: #b20953;
   display:block;
   background-color: #ffe500;
@@ -27,13 +29,22 @@ h1 {
 .nav li {
   list-style-type: none;
   display: inline-block;
+  margin: .3em;
+  padding: .3em;
+  background-color: #b2a212;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.125rem;
 }
 
 a:link {
+  text-decoration: none;
+  color: white;
 }
 
 h2 {
   font-family: 'Sigmar One', cursive;
+  font-size: 1.875rem;
   color: #b20953;
   display:block;
 }
@@ -44,8 +55,10 @@ img {
 
 p {
   display:block;
+  font-size: 1.125rem;
 }
 
 footer {
   background-color: #ffe500;
+  font-size: .75rem;
 }
