@@ -32,15 +32,15 @@ h1 {
   list-style-type: none;
   display: inline-block;
   margin: .3em;
-  padding: .3em;
-  background-color: #b2a212;
   text-align: center;
-  border-radius: 4px;
-  font-size: 1.125rem;
 }
 
 a:link {
   text-decoration: none;
+  padding: .3em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  font-size: 1.125rem;
 }
 
 .nav a {
@@ -53,6 +53,12 @@ a:link {
   border-color: #cc1465;
 }
 
+.nav .current {
+  background-color: #b20953;
+  border-radius: 4px;
+  border-color: #b20953;
+}
+
 h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
@@ -62,7 +68,7 @@ h2 {
 }
 
 img {
-  display:inline;
+  display: block;
   width: 100%;
 }
 
