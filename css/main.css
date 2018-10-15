@@ -8,6 +8,7 @@ html {
 
 body {
   font-family: Georgia, serif;
+  color: #2f2d13;
   margin: 0;
   line-height: 1.5;
   text-align: center;
@@ -19,11 +20,12 @@ header {
 
 h1 {
   margin: 0;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
   color: #b20953;
-  display:block;
+  display: block;
   background-color: #ffe500;
+  padding: 0 .75em;
 }
 
 .nav li {
@@ -52,19 +54,20 @@ a:link {
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   text-align: left;
   color: #b20953;
-  display:block;
+  display: block;
 }
 
 img {
-  display: inline-block;
+  display:inline;
+  width: 100%;
 }
 
 p {
-  display:block;
+  display: block;
   font-size: 1.125rem;
   text-align: left;
 }
@@ -72,5 +75,5 @@ p {
 footer {
   background-color: #ffe500;
   font-size: .75rem;
-  padding: 2em;
+  padding: .75em;
 }
