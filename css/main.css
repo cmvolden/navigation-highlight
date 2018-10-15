@@ -6,14 +6,46 @@ html {
   box-sizing: inherit;
 }
 
-html {
-  font-family: 'Georgia', serif;
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
 }
 
 h1 {
+  margin: 0;
   font-family: 'Sigmar One', cursive;
+  color: #b20953;
+  display:block;
+  background-color: #ffe500;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a:link {
 }
 
 h2 {
   font-family: 'Sigmar One', cursive;
+  color: #b20953;
+  display:block;
+}
+
+img {
+  display: inline-block;
+}
+
+p {
+  display:block;
+}
+
+footer {
+  background-color: #ffe500;
 }
