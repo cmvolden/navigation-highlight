@@ -25,14 +25,13 @@ h1 {
   color: #b20953;
   display: block;
   background-color: #ffe500;
-  padding: 0 .75em;
 }
 
 .nav li {
   list-style-type: none;
   display: inline-block;
-  margin: .3em;
   text-align: center;
+  margin: .3em;
 }
 
 a:link {
@@ -76,9 +75,10 @@ img {
 
 p {
   display: block;
+  background-color: #fff;
   font-size: 1.125rem;
   text-align: left;
-  padding: .2em .5em .3em
+  padding: .2em .5em .3em;
 }
 
 footer {
