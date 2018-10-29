@@ -47,7 +47,7 @@ a:link {
   color: #fff;
 }
 
-.nav li:hover {
+.nav a:hover {
   background-color: #cc1465;
   border-radius: 4px;
   border-color: #cc1465;
@@ -65,17 +65,20 @@ h2 {
   text-align: left;
   color: #b20953;
   display: block;
+  padding: .2em .5em .3em;
 }
 
 img {
   display: block;
   width: 100%;
+  padding: .2em .5em .3em;
 }
 
 p {
   display: block;
   font-size: 1.125rem;
   text-align: left;
+  padding: .2em .5em .3em
 }
 
 footer {
