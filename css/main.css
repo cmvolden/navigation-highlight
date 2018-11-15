@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -10,7 +12,6 @@ body {
   font-family: Georgia, serif;
   color: #2f2d13;
   margin: 0;
-  line-height: 1.5;
   text-align: center;
 }
 
@@ -27,11 +28,17 @@ h1 {
   background-color: #ffe500;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .nav li {
   list-style-type: none;
   display: inline-block;
   text-align: center;
-  margin: .3em;
+  margin: 0;
+  font-size: 1.125rem;
 }
 
 a:link {
@@ -59,12 +66,13 @@ a:link {
 }
 
 h2 {
-  font-family: "Sigmar One", cursive;
+  font-family: "Sigmar One", sans-serif;
   font-size: 1.875rem;
   text-align: left;
   color: #b20953;
   display: block;
   padding: .2em .5em .3em;
+  margin: .3em;
 }
 
 img {
@@ -79,6 +87,7 @@ p {
   font-size: 1.125rem;
   text-align: left;
   padding: .2em .5em .3em;
+  margin: .3em;
 }
 
 footer {
