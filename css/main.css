@@ -13,6 +13,7 @@ body {
   color: #2f2d13;
   margin: 0;
   text-align: center;
+  background-color: white;
 }
 
 header {
@@ -31,6 +32,11 @@ h1 {
 ul {
   margin: 0;
   padding: 0;
+}
+
+nav {
+  padding-bottom: .5em;
+  margin-bottom: 1.25em;
 }
 
 .nav li {
@@ -72,7 +78,7 @@ h2 {
   color: #b20953;
   display: block;
   padding: .2em .5em .3em;
-  margin: .3em;
+  margin: 0;
 }
 
 img {
@@ -84,14 +90,14 @@ img {
 p {
   display: block;
   background-color: #fff;
-  font-size: 1.125rem;
+  font-size: 1rem;
   text-align: left;
-  padding: .2em .5em .3em;
-  margin: .3em;
+  padding: 1em;
+  margin: 0;
 }
 
 footer {
   background-color: #ffe500;
   font-size: .75rem;
-  padding: .75em;
+  padding: 1em;
 }
